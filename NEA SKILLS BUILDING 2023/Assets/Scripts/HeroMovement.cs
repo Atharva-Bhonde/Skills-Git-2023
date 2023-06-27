@@ -50,7 +50,6 @@ public class HeroMovement : MonoBehaviour {
 			Destroy (other.gameObject);
 			vulnerable = true;
 			Debug.Log ("vulnerable = true!");
-			setLives ();
 			StartCoroutine ("VulnerableDebuff");
 		}
 

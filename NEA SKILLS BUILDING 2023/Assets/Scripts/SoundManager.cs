@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour {
 		source.PlayOneShot (coin, 1);
 	}
 
-	private void OnCollisionEnter2d(Collision2D other)
+	private void OnCollisionEnter2D(Collision2D other)
 	{
 		if (other.gameObject.tag == "extraLife") {
 			source.PlayOneShot (life, 1);
