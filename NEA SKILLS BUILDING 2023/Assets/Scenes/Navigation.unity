@@ -333,6 +333,7 @@ GameObject:
   - component: {fileID: 400895062}
   - component: {fileID: 400895061}
   - component: {fileID: 400895064}
+  - component: {fileID: 400895065}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -397,6 +398,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 1381562374}
+--- !u!114 &400895065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 400895060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57700c0174c8f44e9258a428ae24143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TxtOutput: {fileID: 1381562374}
 --- !u!1 &602785898
 GameObject:
   m_ObjectHideFlags: 0
